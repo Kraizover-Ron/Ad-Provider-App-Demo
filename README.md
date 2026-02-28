@@ -4,6 +4,15 @@ A small end-to-end project that connects an **Android app** to a **backend API**
 
 ---
 
+## Documentation
+
+The full documentation is in `docs/` and can be published with GitHub Pages.
+
+- Docs entry point: `docs/index.md`
+- GitHub Pages link (after enabling Pages): `https://<github-username>.github.io/<repo-name>/`
+
+---
+
 ## Demo
 
 A quick demo showing the full flow: **taps → eligibility → ad → cooldown → score**.
@@ -115,3 +124,31 @@ The dashboard is a lightweight web UI that reads **admin endpoints** from the ba
 1. Go to the server folder:
    ```bash
    cd cookieclicker-server
+
+
+## JitPack (Library publishing)
+
+The `engagementsdk` module is configured with `maven-publish`.
+
+To publish with JitPack:
+
+1. Push this repository to GitHub.
+2. Create and push a tag (example: `1.0.0`).
+3. Enable JitPack and add the dependency:
+
+```gradle
+repositories {
+  maven { url = uri("https://jitpack.io") }
+}
+
+dependencies {
+  implementation("com.github.<github-username>:<repo-name>:1.0.0")
+}
+```
+
+You may set publishing properties:
+- `PUBLISH_GROUP_ID`
+- `PUBLISH_ARTIFACT_ID`
+- `PUBLISH_VERSION`
+
+---
