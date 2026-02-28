@@ -1,0 +1,14 @@
+# Android / Gradle
+**/.gradle/
+**/build/
+**/*.iml
+.idea/
+.local.properties
+.DS_Store
+
+# Node (server + dashboard)
+**/node_modules/
+**/dist/
+**/.env
+**/.env.*
+cookieclicker-server/secrets/
