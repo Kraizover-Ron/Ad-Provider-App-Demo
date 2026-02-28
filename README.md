@@ -63,7 +63,7 @@ A quick demo showing the full flow: **taps → eligibility → ad → cooldown �
 
 The dashboard is a lightweight web UI that reads **admin endpoints** from the backend.
 
-Link - Link - https://ad-provider-dashboard.onrender.com/
+**Admin Dashboard:** [https://ad-provider-dashboard.onrender.com/](https://ad-provider-dashboard.onrender.com/)
 
 ### Overview page
 
