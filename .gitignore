@@ -11,4 +11,4 @@
 **/dist/
 **/.env
 **/.env.*
-cookieclicker-server/secrets/
+cookieclicker-server/secrets/CookieClickerApp/local.properties
