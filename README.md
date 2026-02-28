@@ -9,7 +9,7 @@ A small end-to-end project that connects an **Android app** to a **backend API**
 The full documentation is in `docs/` and can be published with GitHub Pages.
 
 - Docs entry point: `docs/index.md`
-- GitHub Pages link : `https://kraizover-ron.github.io/Ad-Provider-App-Demo/`
+- GitHub Pages link: [Documentation](https://kraizover-ron.github.io/Ad-Provider-App-Demo/)
 
 ---
 
