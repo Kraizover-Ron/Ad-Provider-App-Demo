@@ -140,11 +140,12 @@ To publish with JitPack:
 
 ```gradle
 repositories {
-  maven { url = uri("https://jitpack.io") }
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-  implementation("com.github.<github-username>:<repo-name>:1.0.0")
+    implementation 'com.github.Kraizover-Ron:Ad-Provider-App-Demo:1.0.2'
 }
 ```
 
