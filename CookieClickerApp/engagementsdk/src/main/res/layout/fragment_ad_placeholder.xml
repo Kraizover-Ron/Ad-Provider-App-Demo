@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/adStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ad placeholder"
+            android:textSize="14sp"
+            android:textColor="#E5E7EB" />
+
+        <ImageButton
+            android:id="@+id/adClose"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:contentDescription="Close"
+            android:tint="#E5E7EB"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/adFlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="Ad available"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_ad_pill"
+        android:textColor="#FACC15"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/adCreativeImage"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_ad_placeholder"
+        android:contentDescription="Ad"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/adCreativeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Your ad could be here"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FACC15"
+        android:visibility="gone" />
+
+</LinearLayout>
